@@ -1,21 +1,25 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
 
-.main{
+.main {
     background-color: #202020;
-width:79vw;}
-.menu a{
+    width: 79vw;
+}
+
+.menu a {
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
     background-image: url(https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Spotify%20logo.png?raw=true);
     height: 6.5vh;
     background-size: contain;
@@ -23,48 +27,54 @@ width:79vw;}
 
 }
 
-.sidebar{
+.sidebar {
     background-color: black;
     padding: 1% 0 0 2%;
-    width:18vw;
+    width: 18vw;
     height: 95vh;
     font-size: 1.1rem;
 }
-.menu img{
+
+.menu img {
     height: 3vh;
     margin-right: 7%;
 }
-.top{
+
+.top {
     display: flex;
 
 }
-.menu{
-   margin: 10% 0 15% 2%;
 
-   line-height: 17px;
-   
-}
-.install{
-    margin-top: 55px;  
+.menu {
+    margin: 10% 0 15% 2%;
+
+    line-height: 17px;
+
 }
 
-.install a{
+.install {
+    margin-top: 55px;
+}
+
+.install a {
     display: flex;
-    
+
 }
 
 
-.arrows img{
+.arrows img {
     height: 5vh;
 }
-.top-bar{
+
+.top-bar {
     display: flex;
     justify-content: space-between;
     padding: 1.5% 4% 0 2%;
 
 }
-.bottom{
-  padding-top: 1%;
+
+.bottom {
+    padding-top: 1%;
     background-color: #181818;
     display: flex;
     justify-content: space-around;
@@ -73,26 +83,31 @@ width:79vw;}
     position: relative;
     bottom: 120px;
 }
-.bottom img{
-    height:10vh;
+
+.bottom img {
+    height: 10vh;
 }
-.control img{
-height: 4vh;
+
+.control img {
+    height: 4vh;
 }
-.dreaming{
+
+.dreaming {
     display: flex;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     margin: 4% 0 2% 3%;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
     margin: 3% 0 1% 4%;
 
 }
-.music{
+
+.music {
     width: 17.5vw;
     background-color: #303030;
     display: flex;
@@ -102,45 +117,52 @@ h3{
     font-weight: 500;
     border-radius: 5px;
 }
-.music img{
+
+.music img {
     height: 9vh;
     margin-right: 5%;
 }
-.songs{
-    
+
+.songs {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     padding-left: 2%;
-    
+
 }
-#heart{
+
+#heart {
     height: 3vh;
 }
-.dreaming{
+
+.dreaming {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:17%;
+    width: 17%;
 }
 
-.shows{
+.shows {
     display: flex;
     margin-left: 3%;
-   
-   
+
+
 }
-.show img{
-    width:9.7vw;
+
+.show img {
+    width: 9.7vw;
 }
-.show{
+
+.show {
     padding: 1%;
     background-color: #313131;
     margin: 1% 1% 1.5% 1%;
-   font-size: 0.9rem;
-   font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
-.below{
+
+.below {
     width: 88%;
     height: 3vh;
     background-color: #32D760;
@@ -153,13 +175,15 @@ h3{
     position: relative;
     bottom: 120px;
 }
-.show p{
+
+.show p {
     margin-top: 10%;
     font-weight: 500;
     font-size: 0.9rem;
     margin-bottom: 10%;
 }
-.show span{
-    
+
+.show span {
+
     font-weight: lighter;
 }
